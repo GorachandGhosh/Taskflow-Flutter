@@ -154,3 +154,51 @@ TaskFlow follows a **Clean Architecture-inspired project structure** combined wi
 ┌───────────────────────────────┐
 │     Firebase / Local Storage  │
 └───────────────────────────────┘
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **State Management:** BLoC (`flutter_bloc`)
+- **Authentication:** Firebase Authentication
+- **Database:** Cloud Firestore
+- **Local Storage:** SharedPreferences
+- **Date Formatting:** Intl
+- **Equality & State Comparison:** Equatable
+- **Design:** Material 3
+
+---
+
+## 📁 Project Structure
+
+```text
+lib/
+├── app/
+│   └── app.dart
+│
+├── core/
+│   ├── constants/
+│   ├── errors/
+│   ├── theme/
+│   ├── utils/
+│   └── widgets/
+│
+├── features/
+│   ├── auth/
+│   │   ├── data/
+│   │   ├── domain/
+│   │   └── presentation/
+│   │
+│   ├── profile/
+│   │   └── presentation/
+│   │
+│   └── tasks/
+│       ├── data/
+│       ├── domain/
+│       └── presentation/
+│
+├── firebase_options.dart
+└── main.dart
