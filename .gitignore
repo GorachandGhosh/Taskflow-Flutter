@@ -1,0 +1,45 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+
+# Android / Gradle
+.gradle/
+android/.gradle/
+android/local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Signing / private keys
+*.jks
+*.keystore
+*.p12
+debug.keystore
+
+# JVM crash logs
+hs_err_pid*.log
+replay_pid*.log
+
+# Extra root-level Android/Gradle files
+/app/
+/gradle/
+/build.gradle.kts
+/gradle.properties
+/settings.gradle.kts
+/metadata.json
